@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pydantic-essentials"
+version = "0.1.0"
+description = ""
+authors = ["Hamid Adesokan <aadehamid@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.2.5"
+pydantic = "^2.9.2"
+email-validator = "^2.2.0"
+python-dateutil = "^2.9.0.post0"
+pytz = "^2024.2"
+requests = "^2.32.3"
+datamodel-code-generator = "^0.26.0"
+
+[tool.poetry.group.dev.dependencies]
+rich = "^13.8.1"
+ruff = "^0.6.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
